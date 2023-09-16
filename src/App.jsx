@@ -1,5 +1,5 @@
-import { Profile }  from './components/Profile';
-import user from './user';
+import { Profile }  from './components/comp_profile/Profile';
+import user from './path/user';
 
 export const App = () => {
   return (

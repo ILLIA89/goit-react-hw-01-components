@@ -14,3 +14,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+a,
+h1,
+h2,
+h3,
+p,
+button {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+  background-color: #ddd5d6;
+  max-width: 1158px;
+  padding: 100px 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
