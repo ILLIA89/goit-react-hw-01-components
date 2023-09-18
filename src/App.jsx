@@ -4,6 +4,9 @@ import user from './path/user';
 import { Statistics } from './components/comp_statistics/Statistics';
 import data from './path/data';
 
+import { FriendList } from './components/comp_friends/FriendList';
+import friends from './path/friends';
+
 export const App = () => {
   return (
     <>
@@ -15,7 +18,7 @@ export const App = () => {
         stats={user.stats}
       />
       <Statistics title="Upload stats" stats={data} />
-      <Statistics stats={data} />
+      <FriendList friends={friends} />;
     </>
   );
 };

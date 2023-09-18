@@ -1,7 +1,7 @@
 .statistics {
-  width: 500px;
-  width: 200px;
-  background-color: rgb(255, 255, 51);
+  margin-top: 20px;
+  width: fit-content;
+  background-color: rgb(37, 146, 247);
   border-radius: 6px;
   box-shadow: 0px 5px 4px rgba(46, 47, 66, 0.08),
     0px 4px 4px rgba(46, 47, 66, 0.16), 0px 4px 10px rgba(46, 47, 66, 0.08);
@@ -11,7 +11,29 @@
   padding-top: 20px;
   margin-bottom: 20px;
   text-align: center;
-  font-size: 35px;
-  font-weight: 700;
-  color: azure;
+  font-size: 25px;
+  font-weight: 400;
+  color: bisque;
+  /* text-transform: uppercase; */
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 7px;
+  color: bisque;
+}
+
+.label {
+  color: bisque;
 }
