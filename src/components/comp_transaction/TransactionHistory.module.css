@@ -1,0 +1,29 @@
+.table {
+  margin-left: 10px;
+  box-shadow: 1px 3px 3px rgb(187, 187, 187), -1px 3px 3px rgb(187, 187, 187),
+    0px -1px 3px 3px rgb(187, 187, 187);
+  border-color: black;
+  border-spacing: 10px;
+  table-layout: fixed;
+  width: 50vw;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 400px) {
+  .table {
+    width: 100vw;
+  }
+}
+
+.head {
+  background-color: rgb(58, 58, 57);
+  color: rgb(255, 255, 255);
+  table-layout: auto;
+  font-size: 18px;
+}
+.body {
+  background-color: rgb(209, 209, 209);
+  color: rgb(114, 121, 129);
+}
